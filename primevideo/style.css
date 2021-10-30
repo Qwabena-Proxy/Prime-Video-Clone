@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=PT+Serif&display=swap");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.nav {
+  background-color: #131414;
+  height: 70px;
+}
+.logo {
+  width: 80px !important;
+}
+.header {
+  background-image: linear-gradient(to right, #000 40%, transparent 58%),
+    url("images/pvback.jpg");
+  color: white;
+}
+.button {
+  background-color: #0f79af;
+  color: white;
+  border-style: none;
+}
+.footer {
+  background-color: #131414;
+}
+.btn2{
+	background-color: #f2cc70;
+	color: black;
+	width: 200px;
+	border-style: 5px ridge black!important;
+}
+@media screen and (max-width: 760px) {
+  .header {
+    background-image: linear-gradient(to top, #000 40%, transparent 58%),
+      url("images/pvback.jpg");
+    height: 780px !important;
+  }
+  .cols {
+    padding-top: 320px;
+  }
+  .signin {
+    padding-left: 300px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 860px) {
+  .signin {
+    padding-left: 400px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .signin {
+    padding-left: 135px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .signin {
+    padding-left: 170px;
+  }
+}
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  .signin {
+    padding-left: 210px;
+  }
+}
